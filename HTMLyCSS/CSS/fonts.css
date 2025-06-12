@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Franquito";
+    src: url("/PlayFairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Franquito";
+    src: url("/HTMLyCSS/CSS/PlayFairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Franquito";
+    src: url("./PlayFairDisplay/PlayfairDisplay-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Franquito";
+    src: url("/HTMLyCSS/CSS/PlayFairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Franquito";
+    src: url("./PlayFairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Franquito";
+    src: url("/PlayFairDisplay/PlayfairDisplay-Black.ttf") format("truetype");
+    font-weight: 900;
+}

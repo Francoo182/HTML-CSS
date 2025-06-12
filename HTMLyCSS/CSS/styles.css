@@ -1,11 +1,11 @@
 
 p {
-    font-family: "Franquito400";
-    font-weight: 400;
+    font-family: Franquito;
+    font-weight: 600;
 }
 .segundoApartado {
-    font-family: "Franquito500";
-    font-weight: 500;
+    font-family: Franquito;
+    font-weight: 800;
 }
 .indice{
     background-color: black;
@@ -22,10 +22,10 @@ p {
     color: darkgoldenrod;
 }
 h1{
-    font-family: "Franquito900";
+    font-family: Franquito;
     font-weight: 900;
 }
 h2{
-    font-family: "Franquito700";
+    font-family: Franquito;
     font-weight: 700;
 }
