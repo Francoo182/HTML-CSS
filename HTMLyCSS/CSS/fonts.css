@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: "Franquito";
-    src: url("/HTMLyCSS/CSS/PlayFairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
+    src: url("./PlayFairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
     font-weight: 500;
 }
 @font-face {
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Franquito";
-    src: url("/HTMLyCSS/CSS/PlayFairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
+    src: url("./PlayFairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 @font-face {
@@ -26,6 +26,6 @@
 }
 @font-face {
     font-family: "Franquito";
-    src: url("/PlayFairDisplay/PlayfairDisplay-Black.ttf") format("truetype");
+    src: url("./PlayFairDisplay/PlayfairDisplay-Black.ttf") format("truetype");
     font-weight: 900;
 }
