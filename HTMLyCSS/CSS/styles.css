@@ -1,0 +1,31 @@
+
+p {
+    font-family: "Franquito400";
+    font-weight: 400;
+}
+.segundoApartado {
+    font-family: "Franquito500";
+    font-weight: 500;
+}
+.indice{
+    background-color: black;
+    color: white;
+}
+.letrasIndex{
+    color: yellow;
+}
+.letrasIndex2{
+    color: blue;
+}
+.palabrasIndice{
+    background-color:aqua;
+    color: darkgoldenrod;
+}
+h1{
+    font-family: "Franquito900";
+    font-weight: 900;
+}
+h2{
+    font-family: "Franquito700";
+    font-weight: 700;
+}
