@@ -17,11 +17,36 @@ p {
     background-color:aqua;
     color: darkgoldenrod;
 }
-h1{
-    font-family: Franquito;
-    font-weight: 900;
+.DivDelIndice{
+    background-color: black;
+    width: 800px;
+    height: 200px;
 }
-h2{
-    font-family: Franquito;
-    font-weight: 700;
+.divGenerico1{
+    background-color: red;
+}
+.divGenericoForm{
+    background-color: aqua;
+    padding: 20px 10px 5px 30px;
+}
+.divGenericoForm2{
+    background-color: chartreuse;
+    padding: 15px;
+    width: 400px;
+    height: 150px;
+    align-items: center;
+}
+.input1{
+    padding: 8px;
+    width: 50%;
+    margin: 3px; 
+}
+.boton{
+    width: 25%;
+    height: 35px;
+    margin: 8px 45px;
+    border-width: 3%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px 65px;
 }
