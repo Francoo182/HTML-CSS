@@ -1,4 +1,5 @@
 
+body{ margin: 0;}
 p {
     font-family: Franquito;
     font-weight: 400;
@@ -49,4 +50,45 @@ p {
     border-color: black;
     border-style: solid;
     border-radius: 15px 65px;
+}
+.input2{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-top:  1px solid white;
+    border-left:1px solid white;
+    background: transparent;
+    color: greenyellow;
+    border-radius: 12px;
+}
+.div2Email{
+    background-color: black;
+    width: 300px;
+    height: auto;
+}
+.boton2{
+    color: black;
+    background-color: whitesmoke;
+    border-width: 2%;
+    border-color: goldenrod;
+    border-style: solid;
+    border-radius: 8px 50px;
+}
+.box{
+    color: black;
+    background-color: rgb(255, 95, 150);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.Cauno{
+    padding: 25px;
+    border: 5px solid black;
+    border-radius: 25px ;
+}
+.Ca2{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px ;
 }
