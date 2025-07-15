@@ -9,6 +9,8 @@ body{
     height: auto;
     background-image:url(https://scontent.fres2-2.fna.fbcdn.net/v/t1.6435-9/69929099_2486332211405232_2201883446073098240_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH8XVrleokvDyLqJh8wblF8ZqtnxR3_1cdmq2fFHf_Vx4oF_7Wxf5Ahp3aJyqTqMl2L6oxh6uGttRWMFPHi0qox&_nc_ohc=bS4sLfhKSFQQ7kNvwHzXCDI&_nc_oc=AdlaQKTbeO8SfVHCCkRTnM07iMe8cJHOCCFFpTGTVR9BJGJCGLLi_N6mAgRUVGMgQog&_nc_zt=23&_nc_ht=scontent.fres2-2.fna&_nc_gid=Jz9etmIuSVSB118DWuXCNA&oh=00_AfPAc3CdrRnD7b6z0lIpHiO7tMb3uS7KIXpgl-E4K3mRYg&oe=6875352D);
     box-sizing: border-box;
+    background-size:cover ;
+    background-attachment:scroll ;
 
 }
 .opaco{
