@@ -9,32 +9,32 @@
 </head>
 <body>
     <div class="fondo_form">
-    <h2>Inicio de sesion</h2>
+    <h2 aria-label="Inicio de sesion">Inicio de sesion</h2>
     <form>
         <fieldset>
-            <legend>Informacion de inicio de sesion</legend>
+            <legend aria-label="Informacion de inicio de sesion">Informacion de inicio de sesion</legend>
         <div class="form_input">
-            <label for="nombre">Email</label>
-            <input type="email" placeholder="Ingrese su Email" id="nombre">
+            <label for="email" aria-label="Ingrese su email a continuacion">Email</label>
+            <input type="email" placeholder="Ingrese su Email" id="email" autocomplete="email">
         </div>
         <div class="form_input">
-            <label for="contrasena">Contraseña</label>
-            <input type="password" placeholder="Ingrese su Contraseña" id="contrasena">
+            <label for="password" aria-label="Ingrese su contraseña a continuacion">Contraseña</label>
+            <input type="password" placeholder="Ingrese su Contraseña" id="password">
         </div>
         </fieldset>
         <fieldset>
-            <legend>Categoria y Invitacion especial</legend>
+            <legend aria-label="Area de categoria y invitacion especializada">Categoria y Invitacion especial</legend>
         <div class="form_input">
-            <label for="tipo-de-usuario">Seleccione su categoria</label>
-            <select name="tipo-de-usuario">
-                <option> Visitante</option>
-                <option> Agencia</option>
-                <option> Vendedor</option>
+            <label for="tipo-de-usuario" aria-label="Que tipo de usuario es?">Seleccione su categoria </label>
+            <select name="tipo-de-usuario" id="tipo-de-usuario">
+                <option value="user1"> Visitante</option>
+                <option value="user2"> Agencia</option>
+                <option value="user3"> Vendedor</option>
             </select>
         </div>
         <div class="form_input">
-            <label>¿Quien te invito?</label>
-            <input list="refID" name="refID">
+            <label for="refID">¿Quien te invito?</label>
+            <input list="refID" name="refID" aria-label="Ingrese la persona que lo invito" id="refID">
             <datalist id = "refID" name="type-of-invite">
                 <option value="Un Amigo">Puede ser cualquiera</option>
                 <option value="Un Videito"> Seguro es algun guru vende humo</option>
@@ -47,7 +47,7 @@
             <textarea placeholder="Pone pue algo aca" id="texto"></textarea>
         </div>
         <div class="form_input">
-            <label>Acepto los <a href="terminos.html" target="_blank">Terminos y condiciones</a> <input type="checkbox" class="checkbox"></label>
+            <label for="checkbox">Acepto los <a href="terminos.html" target="_blank">Terminos y condiciones</a> <input type="checkbox" class="checkbox" id="checkbox"></label>
         </div>
     </form>
     </div>
