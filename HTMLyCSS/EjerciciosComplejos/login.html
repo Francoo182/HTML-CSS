@@ -10,6 +10,8 @@
     <div class="fondo_form">
     <h2>Inicio de sesion</h2>
     <form>
+        <fieldset>
+            <legend>Informacion de inicio de sesion</legend>
         <div class="form_input">
             <label for="nombre">Email</label>
             <input type="email" placeholder="Ingrese su Email" id="nombre">
@@ -18,6 +20,9 @@
             <label for="contrasena">Contraseña</label>
             <input type="password" placeholder="Ingrese su Contraseña" id="contrasena">
         </div>
+        </fieldset>
+        <fieldset>
+            <legend>Categoria y Invitacion especial</legend>
         <div class="form_input">
             <label for="tipo-de-usuario">Seleccione su categoria</label>
             <select name="tipo-de-usuario">
@@ -26,6 +31,16 @@
                 <option> Vendedor</option>
             </select>
         </div>
+        <div class="form_input">
+            <label>¿Quien te invito?</label>
+            <input list="refID" name="refID">
+            <datalist id = "refID" name="type-of-invite">
+                <option value="Un Amigo">Puede ser cualquiera</option>
+                <option value="Un Videito"> Seguro es algun guru vende humo</option>
+                <option value="Mi Vecinito"> tiene antojo?</option>
+        </datalist>
+        </div>
+        </fieldset>
         <div class="form_input">
             <label for="texto">Texto</label>
             <textarea placeholder="Pone pue algo aca" id="texto"></textarea>
