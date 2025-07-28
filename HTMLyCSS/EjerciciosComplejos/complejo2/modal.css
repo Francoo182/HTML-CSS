@@ -1,0 +1,46 @@
+body{ margin: 0; }
+h1, h2{
+    font-size: 50px;
+}
+p{ font-size: 15px;}
+.parrafo{
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 40px;}
+.listita{font-size: 22px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.item--importante{
+    color: red;
+}
+.item--accionado{
+    padding: 6px;
+    background-color: yellow;
+    display: inline;
+    color: black;
+}
+.item--accionado:hover{
+    background-color: orange;
+}
+.item--accionado:active{
+    background-color: white;
+}
+.item--mayor{
+    color: blue;
+}
+.item--menores{
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+}
+.item--caja--menores{
+    width: 20em;
+}
+.menu {
+    background-color: black;
+}
+.menu__lista{
+    margin: 0px;
+}
+.menu__item{
+display: inline-block;
+color: orange;
+}
